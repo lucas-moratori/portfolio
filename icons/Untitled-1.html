@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Verificador de Aprovação</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+            background: #f4f4f4;
+        }
+        .card {
+            background: #fff;
+            padding: 24px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 280px;
+            text-align: center;
+        }
+        input, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            background: #ff8c69;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        #resultado {
+            margin-top: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>Verificar Aprovação</h2>
+        <input type="number" id="media" placeholder="Digite a média">
+        <button onclick="verificar()">Verificar</button>
+        <p id="resultado"></p>
+    </div>
+
+    <script>
+        function verificar() {
+            let media = Number(document.getElementById("media").value);
+            let resultado = document.getElementById("resultado");
+
+            if (media >= 7) {
+                resultado.textContent = "Aluno Aprovado";
+                resultado.style.color = "green";
+            } else if (media > 4 && media <= 6) {
+                resultado.textContent = "Aluno em Recuperação";
+                resultado.style.color = "orange";
+            } else {
+                resultado.textContent = "Aluno Reprovado";
+                resultado.style.color = "red";
+            }
+        }
+    </script>
+
+</body>
+</html>

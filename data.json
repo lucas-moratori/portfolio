@@ -1,0 +1,76 @@
+{
+    "perfil": {
+        "nome": "Lucas Gabriel Montesi Moratori",
+        "subtitulo": "💻 Estudante de Desenvolvimento Web | 1º Semestre",
+        "badges": [
+            "📍 Juiz de Fora",
+            "🎯 Programador FullStack",
+            "📚 Desenvolvimento de Sistemas",
+            "🚀 Em aprendizado"
+        ]
+    },
+    "conhecimentos": [
+        {
+            "nome": "HTML5",
+            "icone": "html5.svg",
+            "status": "estudando",
+            "statusTexto": "📖 Estudando"
+        },
+        {
+            "nome": "CSS3",
+            "icone": "css3.svg",
+            "status": "estudando",
+            "statusTexto": "📖 Estudando"
+        },
+        {
+            "nome": "JavaScript",
+            "icone": "javascript.svg",
+            "status": "estudando",
+            "statusTexto": "📖 Estudando"
+        },
+        {
+            "nome": "Git",
+            "icone": "git.svg",
+            "status": "estudando",
+            "statusTexto": "📖 Estudando"
+        },
+        {
+            "nome": "GitHub",
+            "icone": "github.svg",
+            "status": "estudando",
+            "statusTexto": "📖 Estudando"
+        },
+        {
+            "nome": "VS Code",
+            "icone": "vscode.svg",
+            "status": "concluido",
+            "statusTexto": "✅ Concluído"
+        }
+    ],
+    "projetos": [
+        {
+            "titulo": "Calculadora JS",
+            "icone": "🧮",
+            "descricao": "Calculadora com operações básicas",
+            "link": "https://github.com/seu-usuario/calculadora"
+        },
+        {
+            "titulo": "Verificador de Idade",
+            "icone": "🎂",
+            "descricao": "Descobre se você é maior de idade",
+            "link": "https://github.com/seu-usuario/verificador-idade"
+        },
+        {
+            "titulo": "Jogo da Adivinhação",
+            "icone": "🎯",
+            "descricao": "Tente adivinhar o número secreto",
+            "link": null
+        },
+        {
+            "titulo": "Lista de Tarefas",
+            "icone": "📋",
+            "descricao": "CRUD simples com JavaScript",
+            "link": null
+        }
+    ]
+}
